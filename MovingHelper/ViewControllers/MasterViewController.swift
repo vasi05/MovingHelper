@@ -103,7 +103,7 @@ public class MasterViewController: UITableViewController {
 
 extension MasterViewController: TaskUpdatedDelegate {
   public func taskUpdated(task: Task) {
-    print("cacat")
+    print("cacat pipi")
     addOrUpdateTask(task)
     saveTasksToFile()
   }
